@@ -17,6 +17,7 @@ public class Greeter {
   }
 
   public static void main(String[] args) {
+    System.out.println("The length of args is "+ args.length);
     String language = args[0];
     String country = args[1];
     String name = args[2];
